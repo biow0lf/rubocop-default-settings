@@ -28,18 +28,26 @@ Rails/TimeZone:
   EnforcedStyle: strict
   Enabled: true
 
-# Style/BlockComments:
-#   Enabled: false
-#
-# Style/Documentation:
-#   Enabled: false
-#
-# Style/FrozenStringLiteralComment:
-#   Enabled: true
-#
-# Style/FlipFlop:
-#   Enabled: true
-#
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/BlockComments:
+  Enabled: false
+
+Style/CollectionMethods:
+  Enabled: true
+
+Style/ConditionalAssignment:
+  Enabled: true
+  EnforcedStyle: assign_to_condition
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+
 # Style/RedundantException:
 #   Enabled: true
 #
@@ -49,18 +57,8 @@ Rails/TimeZone:
 # Style/SignalException:
 #   Enabled: true
 #
-#
 # Style/StringLiterals:
 #   EnforcedStyle: single_quotes
-#   Enabled: true
-#
-# Style/AutoResourceCleanup:
-#   Enabled: true
-#
-# Style/CollectionMethods:
-#   Enabled: true
-#
-# Style/Encoding:
 #   Enabled: true
 #
 # Style/ImplicitRuntimeError:
@@ -77,10 +75,6 @@ Rails/TimeZone:
 #
 # Style/IfUnlessModifier:
 #   Enabled: false
-#
-# Style/ConditionalAssignment:
-#   Enabled: true
-#   EnforcedStyle: assign_to_condition
 #
 # Style/NegatedIf:
 #   Enabled: false
