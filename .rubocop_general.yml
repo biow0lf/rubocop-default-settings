@@ -18,6 +18,9 @@ Layout/SpaceInsideStringInterpolation:
 Layout/MultilineAssignmentLayout:
   Enabled: true
 
+Metrics/LineLength:
+  Enabled: false
+
 Rails:
   Enabled: true
 
@@ -46,9 +49,6 @@ Rails:
 # Style/StringLiterals:
 #   EnforcedStyle: single_quotes
 #   Enabled: true
-#
-# Metrics/LineLength:
-#   Enabled: false
 #
 # Rails/TimeZone:
 #   EnforcedStyle: strict
