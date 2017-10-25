@@ -1,3 +1,8 @@
-inherit_from: .rubocop_general.yml
-inherit_from: .rubocop_rspec.yml
-inherit_from: .rubocop-thread_safety.yml
+require: rubocop-thread_safety
+require: rubocop-rspec
+
+inherit_from:
+  - .rubocop_general.yml
+  - .rubocop_rspec.yml
+  - .rubocop-thread_safety.yml
+  - .rubocop_todo.yml
