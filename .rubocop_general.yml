@@ -69,10 +69,6 @@ Rails/TimeZone:
 # Style/MethodCalledOnDoEndBlock:
 #   Enabled: true
 #
-#
-# Bundler/OrderedGems:
-#   Enabled: false
-#
 # Style/SymbolArray:
 #   Enabled: false
 #
@@ -164,3 +160,6 @@ Rails/TimeZone:
 #
 # RSpec/MultipleDescribes:
 #   Enabled: true
+
+Bundler/OrderedGems:
+  Enabled: false
