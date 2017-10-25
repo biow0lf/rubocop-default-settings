@@ -48,6 +48,15 @@ Style/FrozenStringLiteralComment:
   Enabled: true
   EnforcedStyle: always
 
+Style/ImplicitRuntimeError:
+  Enabled: true
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: true
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
 # Style/RedundantException:
 #   Enabled: true
 #
@@ -59,12 +68,6 @@ Style/FrozenStringLiteralComment:
 #
 # Style/StringLiterals:
 #   EnforcedStyle: single_quotes
-#   Enabled: true
-#
-# Style/ImplicitRuntimeError:
-#   Enabled: true
-#
-# Style/MethodCalledOnDoEndBlock:
 #   Enabled: true
 #
 # Style/SymbolArray:
