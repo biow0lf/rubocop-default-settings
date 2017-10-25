@@ -64,15 +64,17 @@ Style/MissingElse:
 Style/NegatedIf:
   Enabled: false
 
-# Style/RedundantException:
-#   Enabled: true
-#
-# Style/SafeNavigation:
-#   Enabled: true
-#
-# Style/SignalException:
-#   Enabled: true
-#
+Style/NumericLiterals:
+  Enabled: true
+  Strict: true
+  MinDigits: 4
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/ReturnNil:
+  Enabled: true
+
 # Style/StringLiterals:
 #   EnforcedStyle: single_quotes
 #   Enabled: true
