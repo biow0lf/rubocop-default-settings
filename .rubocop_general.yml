@@ -89,15 +89,5 @@ Style/GuardClause:
 Style/IfUnlessModifier:
   Enabled: false
 
-# # rubocop-thread_safety cops
-# ThreadSafety/ClassAndModuleAttributes:
-#   Enabled: true
-#
-# ThreadSafety/InstanceVariableInClassMethod:
-#   Enabled: true
-#
-# ThreadSafety/NewThread:
-#   Enabled: true
-
 Bundler/OrderedGems:
   Enabled: false
