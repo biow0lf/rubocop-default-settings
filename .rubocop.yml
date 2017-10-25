@@ -1,0 +1,2 @@
+inherit_from: .rubocop_general.yml
+inherit_from: .rubocop_rspec.yml
