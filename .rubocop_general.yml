@@ -51,9 +51,6 @@ Style/FrozenStringLiteralComment:
 Style/ImplicitRuntimeError:
   Enabled: true
 
-Style/MethodCallWithArgsParentheses:
-  Enabled: true
-
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
 
