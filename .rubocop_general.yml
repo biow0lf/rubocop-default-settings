@@ -75,23 +75,20 @@ Style/PercentLiteralDelimiters:
 Style/ReturnNil:
   Enabled: true
 
-# Style/StringLiterals:
-#   EnforcedStyle: single_quotes
-#   Enabled: true
-#
-# Style/SymbolArray:
-#   Enabled: false
-#
-# Style/GuardClause:
-#   Enabled: false
-#
-# Style/IfUnlessModifier:
-#   Enabled: false
-#
-# Style/WordArray:
-#   Enabled: true
-#   EnforcedStyle: brackets
-#
+Style/SymbolArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  Enabled: true
+  EnforcedStyle: brackets
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
 # # rubocop-thread_safety cops
 # ThreadSafety/ClassAndModuleAttributes:
 #   Enabled: true
