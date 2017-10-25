@@ -1,0 +1,1 @@
+# rubocop-default-settings
