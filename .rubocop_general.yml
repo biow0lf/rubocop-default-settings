@@ -21,7 +21,11 @@ Layout/MultilineAssignmentLayout:
 Metrics/LineLength:
   Enabled: false
 
-Rails:
+Rails/SaveBang:
+  Enabled: true
+
+Rails/TimeZone:
+  EnforcedStyle: strict
   Enabled: true
 
 # Style/BlockComments:
@@ -48,13 +52,6 @@ Rails:
 #
 # Style/StringLiterals:
 #   EnforcedStyle: single_quotes
-#   Enabled: true
-#
-# Rails/TimeZone:
-#   EnforcedStyle: strict
-#   Enabled: true
-#
-# Rails/SaveBang:
 #   Enabled: true
 #
 # Style/AutoResourceCleanup:
